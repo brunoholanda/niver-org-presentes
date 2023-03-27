@@ -1,0 +1,14 @@
+.cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--preto);
+
+    img {
+        width: 90px;
+        margin-top: .3em;
+        margin-left: 2em;
+    }
+    &__links {
+        display: none;
+}
+}

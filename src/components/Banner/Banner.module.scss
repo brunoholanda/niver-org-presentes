@@ -1,0 +1,24 @@
+.banner {
+    
+    &__imagem {
+        position: relative;
+
+        img {
+            width: 100vw;
+            height: 50vw;
+        }
+    }
+
+     
+        h1 {
+            position: relative;
+            top: -50px;
+            text-align: center;
+            color: var(--branco);
+            padding: 0 1em;
+            margin: 0;
+            font-size: 18px;
+        }
+        
+
+}

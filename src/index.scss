@@ -1,0 +1,31 @@
+:root {
+  --fonte: 'Lexend', sans-serif;
+  --branco: #ffffff;
+  --preto: #000000;
+  --roxo: #5C63EF;
+  --laranja: #f2750e;
+  --roxo-fosco: #292B52;
+  --cinza: #A1A1A1;
+  --cinza-claro: #E6E6EB;
+  --azul-marinho: #19202C;
+  --azul:#00B8C4;
+  --azul-background: #F3F7F9;
+  --amarelo: #F8BC00;
+  --cinza-claro:#EEEEEE;
+  --verde: #19BB8A;
+  --vermelho: #FA5450;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
