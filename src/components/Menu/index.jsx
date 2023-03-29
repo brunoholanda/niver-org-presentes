@@ -52,9 +52,11 @@ export default function Menu() {
               Presenteie
             </MDBBtn>
             </Link>
+            <Link to="./abadas">
             <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
-              Cardápio da Festa
+              Seu Abada
             </MDBBtn>
+            </Link>
           </div>
         </MDBCollapse>
       </section>

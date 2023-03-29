@@ -1,0 +1,14 @@
+.abadas {
+    text-align: center;
+    background-color: var(--azul-background);
+    padding-top: 1em;
+
+    &__descricao {
+        margin: 3em 1em .2em 1em;
+        
+    }
+
+    &__instagram {
+        margin-bottom: 1em;
+    }
+}
