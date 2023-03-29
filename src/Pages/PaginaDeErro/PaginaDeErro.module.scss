@@ -1,10 +1,16 @@
 .erro {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 1em 8em;
+    margin: 4em 8em;
     font-family: var(--fonte-principal);
+
+    img {
+        width: 200px;
+    
+    }
 
     h1 {
         
@@ -12,4 +18,5 @@
     }
 
 }
+
 

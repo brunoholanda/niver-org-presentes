@@ -11,14 +11,17 @@ export default function Passeios() {
             .then(resposta => resposta.json())
             .then(dados => {
                 setPasseios(dados)
-                
+
             })
     }, [])
 
 
     return (
         <section className={styles.passeios}>
-            <h1>Opções de presentes</h1>
+            <div className={styles.passeios__descricao}>
+                <h2>Como todos sabem eu amo viajar ✈️ Em outubro vou a Foz do Iguaçu e você pode contribuir para deixar minha viagem incrível</h2>
+                <h3>Opções de presentes🎁</h3>
+            </div>
             {passeios.map((passeios) => {
                 return <Card {...passeios} key={passeios.id} />
             })}

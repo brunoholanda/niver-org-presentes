@@ -8,6 +8,7 @@ import {
   MDBNavbarToggler,
   MDBBtn,
 } from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
 
 export default function Menu() {
 
@@ -38,17 +39,21 @@ export default function Menu() {
 
         <MDBCollapse show={animar}>
           <div className='#5C63EF shadow-3 p-1'>
-            <MDBBtn block className='none m-0' color='link' style={{color: '#ffffff'}}>
-              Home
+          <Link to="./">
+            <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
+              Inicio
             </MDBBtn>
-            <MDBBtn block className='none m-0' color='link' style={{color: '#ffffff'}}>
+            </Link>
+            <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
               A Festa
             </MDBBtn>
-            <MDBBtn block className='none m-0' color='link' style={{color: '#ffffff'}}>
+            <Link to="./passeios">
+            <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
               Presenteie
             </MDBBtn>
-            <MDBBtn block className='none m-0' color='link' style={{color: '#ffffff'}}>
-              Contato
+            </Link>
+            <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
+              Cardápio da Festa
             </MDBBtn>
           </div>
         </MDBCollapse>

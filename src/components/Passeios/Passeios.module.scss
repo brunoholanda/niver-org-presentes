@@ -3,10 +3,20 @@
     background-color: var(--azul-background);
     padding: 1em 0;
 
-    h1 {
+    &__descricao {
+
+        padding: 1em;
         text-align: center;
-        color: var(--azul-marinho);  
-        font-size: 30px;
-        font-weight: 600;
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 1em;
+        }
+        h3 {
+            
+            font-size: 30px;
+            font-weight: 600;
+        }
     }
+   
 }

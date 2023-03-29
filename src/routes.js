@@ -1,3 +1,4 @@
+import Passeios from "components/Passeios";
 import ScrollToTop from "components/ScrollToTop";
 import CorpoPagina from "Pages/CorpoPagina";
 import Inicio from "Pages/Inicio";
@@ -11,6 +12,7 @@ function AppRoutes() {
             <Routes>
                 <Route path="/" element={<CorpoPagina />}>
                     <Route index element={<Inicio />} />
+                    <Route path="/passeios" element={<Passeios />}/>
                     <Route path="*" element={<PaginaDeErro />} />
                 </Route>
             </Routes>
