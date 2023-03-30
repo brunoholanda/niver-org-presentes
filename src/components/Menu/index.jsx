@@ -44,9 +44,6 @@ export default function Menu() {
               Inicio
             </MDBBtn>
             </Link>
-            <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
-              A Festa
-            </MDBBtn>
             <Link to="./passeios">
             <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
               Presenteie
@@ -55,6 +52,11 @@ export default function Menu() {
             <Link to="./abadas">
             <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
               Seu Abada
+            </MDBBtn>
+            </Link>
+            <Link to="./sobre">
+            <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
+              Sobre a Festa
             </MDBBtn>
             </Link>
           </div>
