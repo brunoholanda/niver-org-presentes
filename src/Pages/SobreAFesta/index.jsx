@@ -12,7 +12,7 @@ export default function SobreAFesta() {
                 muito especial com DJ, música ao vivo, comida boa e bons drinks
             </p>
             <h2>Localização</h2>
-            <a href={mapUrl}>
+            <a href="https://www.google.com/maps/place/7%C2%B016'32.6%22S+34%C2%B053'42.7%22W/@-7.2757222,-34.8973831,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-7.2757222!4d-34.8951944?hl=pt-BR">
             <Botao>Google Maps</Botao>
             </a>
             <div>
