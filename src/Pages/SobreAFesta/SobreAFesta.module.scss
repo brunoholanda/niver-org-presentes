@@ -10,3 +10,13 @@
         margin: 1em 0;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        margin: 4em 5em;
+
+        p {
+            font-size: 30px;
+        }
+    }
+}

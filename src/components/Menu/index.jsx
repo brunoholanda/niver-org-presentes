@@ -46,12 +46,12 @@ export default function Menu() {
             </Link>
             <Link to="./passeios">
             <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
-              Presenteie
+              Presentear
             </MDBBtn>
             </Link>
             <Link to="./abadas">
             <MDBBtn block className='none m-0' color='link' style={{color: '#f2750e'}}>
-              Seu Abada
+              Seu Abadá
             </MDBBtn>
             </Link>
             <Link to="./sobre">

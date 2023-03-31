@@ -25,7 +25,9 @@ export default function Abadas() {
                 <h2>Estilize seu Abada!</h2>
                 <p>Nessa página decidi deixar pra vocês dois perfis do Instagram para vocês terem ideias para estilizar seu abada da melhor forma, espero que gostem!</p>
             </div>
-            {usernames.map(username => renderInstagramEmbed(username))}
+            <div className={styles.abadas__instas}>
+                {usernames.map(username => renderInstagramEmbed(username))}
+            </div>
         </div>
     );
 };

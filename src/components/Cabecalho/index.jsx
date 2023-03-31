@@ -2,19 +2,21 @@ import { Link } from 'react-router-dom';
 import styles from './Cabecalho.module.scss';
 import logo from '../../public/assets/img/logo.png';
 import Menu from 'components/Menu';
+import Links from 'components/Links';
 
 export default function Cabecalho() {
     return (
         <section className={styles.cabecalho}>
-            <Menu />
-            <div className={styles.cabecalho__links}>
-                <a href="#imoveis">A festa</a>
-                <a href="#sobre">Presenteie</a>
-                <a href="#contato">Contato</a>
+            <div className={styles.cabecalho__hamburguer}>
+                <Menu />
             </div>
+
             <Link to="./">
                 <img src={logo} alt="logo da festa" />
             </Link>
+            <div className={styles.cabecalho__desktop}>
+                <Links />
+            </div>
         </section>
     )
 }

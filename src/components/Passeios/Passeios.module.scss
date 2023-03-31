@@ -20,3 +20,21 @@
     }
    
 }
+
+@media screen and (min-width: 1024px) {
+    .passeios {
+        
+        &__descricao {
+            h2{
+                font-size: 30px;
+            }
+            h3{
+                font-size: 40px;
+            }
+        }
+        &__cards {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}

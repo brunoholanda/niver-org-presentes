@@ -22,10 +22,11 @@ export default function Passeios() {
                 <h2>Como todos sabem eu amo viajar ✈️ Em outubro vou a Foz do Iguaçu e você pode contribuir para deixar minha viagem incrível</h2>
                 <h3>Opções de presentes🎁</h3>
             </div>
-            {passeios.map((passeios) => {
-                return <Card {...passeios} key={passeios.id} />
-            })}
-
+            <div className={styles.passeios__cards}>
+                {passeios.map((passeios) => {
+                    return <Card {...passeios} key={passeios.id} />
+                })}
+            </div>
         </section>
     )
 }

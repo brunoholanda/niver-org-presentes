@@ -8,7 +8,37 @@
         margin-top: .3em;
         margin-left: 2em;
     }
-    &__links {
+
+    &__desktop {
         display: none;
+    }
 }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+
+        &__desktop {
+            display: flex;
+            align-items: center;
+            margin: 0 10em;
+            
+            a {
+                align-items: center;
+                justify-content: center;
+                margin: 0 2em;
+                color: var(--branco);
+                font-family: 600;
+                font-size: 22px;
+            }
+
+            a:hover {
+                color: var(--laranja);
+                font-weight: bold;
+            }
+        }
+    
+    &__hamburguer {
+        display: none;
+    }
+    }
 }
