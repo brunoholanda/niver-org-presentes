@@ -24,6 +24,7 @@ export default function Pix() {
         <div className={styles.pix__imagem}>
         <Modal.Body>
           <img src={pix} alt="Pague com Pix" />
+          <h3>Chave (83) 98706-1400</h3>
         </Modal.Body>
         </div>
         <Modal.Footer>
